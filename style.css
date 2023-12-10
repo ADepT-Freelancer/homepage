@@ -27,7 +27,7 @@ body {
 .fh {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .fv {
@@ -270,3 +270,10 @@ body {
 }
 
 /* my styles ****************************************************************** */
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+}
